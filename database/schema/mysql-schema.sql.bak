@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS incidencias (
+    id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(255) NOT NULL,
+    equipo VARCHAR(100) NOT NULL,
+    descripcion TEXT NULL,
+    created_at TIMESTAMP NULL DEFAULT NULL,
+    updated_at TIMESTAMP NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+INSERT INTO incidencias (titulo, equipo, descripcion, created_at, updated_at) VALUES
+('No funciona el proyector', 'Aula 2 - PC Profesor', 'Al encender el equipo no se detecta salida de vídeo hacia el proyector.', NOW(), NOW()),
+('Ratón averiado', 'Aula 1 - Equipo 07', 'El clic izquierdo falla de forma intermitente.', NOW(), NOW()),
+('Teclado sin varias teclas', 'Aula 3 - Equipo 12', 'Las teclas enter y espacio no responden correctamente.', NOW(), NOW());
