@@ -97,3 +97,4 @@ Este proyecto está pensado para que el alumnado pueda:
 - desplegar Laravel con MySQL,
 - preparar después Docker Compose como parte del examen.
 # aulahelp
+# aulahelp
