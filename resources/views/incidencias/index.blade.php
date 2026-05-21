@@ -4,7 +4,7 @@
     <section class="card">
         <div class="card-header">
             <h2>Listado de incidencias</h2>
-            <p>Aplicación base preparada para prácticas de despliegue y control de versiones.</p>
+            <p>Aplicación del Exámen</p>
         </div>
 
         @if($incidencias->isEmpty())
