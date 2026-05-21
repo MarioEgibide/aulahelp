@@ -3,8 +3,8 @@
 @section('content')
     <section class="card">
         <div class="card-header">
-            <h2>Bienvenidos al listado de incidencias</h2>
-            <p>Listamos las incidencias una vez más</p>
+            <h2>Listado de incidencias</h2>
+            <p>Aplicación base preparada para practicar de despligue ycontrol de versiones</p>
         </div>
 
         @if($incidencias->isEmpty())
