@@ -4,7 +4,7 @@
     <section class="card">
         <div class="card-header">
             <h2>Listado de incidencias</h2>
-            <p>Aplicación del Examen</p>
+            <p>Aplicación del Examenn</p>
         </div>
 
         @if($incidencias->isEmpty())
