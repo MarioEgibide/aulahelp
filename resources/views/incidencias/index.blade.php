@@ -3,8 +3,8 @@
 @section('content')
     <section class="card">
         <div class="card-header">
-            <h2>Listado de incidencias</h2>
-            <p>Aplicación del Exámen</p>
+            <h2>Bienvenidos al Listado de incidencias</h2>
+            <p>Listamos las incidencias una vez mas</p>
         </div>
 
         @if($incidencias->isEmpty())
